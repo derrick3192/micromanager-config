@@ -1,5 +1,8 @@
 ---
 
+cloudconfig:
+  port: 8001
+
 servicediscovery:
   host: localhost
   port: 8010
