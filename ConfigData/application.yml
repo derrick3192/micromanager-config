@@ -1,8 +1,4 @@
 ---
-
-cloudconfig:
-  port: 8001
-
 servicediscovery:
   host: localhost
   port: 8010
@@ -20,5 +16,11 @@ lucky-word: Serendipity
 
 dashboard:
   port: 8078
+  
+  
+cloudconfig:
+  port: 8001
+
+  
 ---
   
