@@ -3,7 +3,8 @@
 servicediscovery:
   host: localhost
   port: 8010
-  url: http://${servicediscovery.host}:${servicediscovery.port}/eureka/
+  url: http://localhost:8010/eureka/
+
 
 # Items that apply to ALL profiles:
 eureka:
@@ -12,5 +13,9 @@ eureka:
       defaultZone: ${servicediscovery.url}
 
 lucky-word: Serendipity
+
+
+dashboard:
+  port: 8078
 ---
   
