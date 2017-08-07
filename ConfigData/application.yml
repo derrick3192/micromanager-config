@@ -1,15 +1,15 @@
 ---
 
-service-discovery:
-  host:localhost
+servicediscovery:
+  host: localhost
   port: 8010
-  url: http://${service-discovery.host}:${service-discovery.port}/eureka/
+  url: http://${servicediscovery.host}:${servicediscovery.port}/eureka/
 
 # Items that apply to ALL profiles:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${service-discovery.url}
+      defaultZone: ${servicediscovery.url}
 
 lucky-word: Serendipity
 ---
