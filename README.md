@@ -1,0 +1,2 @@
+# micromanager-config
+Configuration Server. 
